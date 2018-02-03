@@ -1,0 +1,20 @@
+{
+  "name": "tempu",
+  "version": "1.0.0",
+  "description": "RaspberryPi Temperatur Überwachung",
+  "main": "test_display_node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adafruit-i2c-lcd": "^1.0.2",
+    "johnny-five": "^0.13.0",
+    "lcdi2c": "^1.0.6",
+    "oled-font-5x7": "^1.0.0",
+    "oled-js": "^4.0.5",
+    "raspi-io": "^8.1.0",
+    "moment": "^2.20.0"
+  }
+}
