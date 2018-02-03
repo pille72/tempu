@@ -30,7 +30,7 @@ board.on('ready', function() {
 
     // Temp / Luftfeuchte
     oled.setCursor(0, 18);
-    oled.writeString(font, 2, ' aüö', 1, true, 2);
+    oled.writeString(font, 2, '30°', 1, true, 2);
     oled.setCursor(80, 18);
     oled.writeString(font, 2, '20%', 1, true, 2);
 
