@@ -1,4 +1,9 @@
 # tempu
 School Project
 
-Copy to raspberry pi and run: `sudo node tempu_display.js`
+## Install
+
+- SSH into raspberry pi
+- `$ git clone https://github.com/pille72/tempu.git tempu`
+- `$ cd tempu && npm install`
+- `$ sudo node tempu_display.js`
