@@ -13,6 +13,7 @@
     "moment": "^2.20.0",
     "oled-font-5x7": "git+https://github.com/pille72/oled-font-5x7.git",
     "oled-js": "^4.0.5",
-    "raspi-io": "^8.1.0"
+    "raspi-io": "^8.1.0",
+    "rpi-dht-sensor": "^0.1.1"
   }
 }
