@@ -8,6 +8,20 @@ const board = new five.Board({
 
 const display = new TempUDisplay(board, 0x3c, '0', '0');
 
+var rpiDhtSensor = require('rpi-dht-sensor');
+
+var dht = new rpiDhtSensor.DHT11(2);
+
+function read () {
+    var readout = dht.read();
+
+    console.log('Temperature: ' + readout.temperature.toFixed(2) + 'C, ' +
+        'humidity: ' + readout.humidity.toFixed(2) + '%');
+    setTimeout(read, 5000);
+}
+read();
+
+
 board.on('ready', function() {
     console.log('Connected to Arduino, ready.');
 
