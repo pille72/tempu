@@ -10,7 +10,7 @@ const display = new TempUDisplay(board, 0x3c, '0', '0');
 
 var rpiDhtSensor = require('rpi-dht-sensor');
 
-var dht = new rpiDhtSensor.DHT11(2);
+var dht = new rpiDhtSensor.DHT11(4);
 
 function read () {
     var readout = dht.read();
