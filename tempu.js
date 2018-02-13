@@ -19,7 +19,7 @@ function read () {
         'humidity: ' + readout.humidity.toFixed(2) + '%');
     setTimeout(read, 5000);
 }
-read();
+//read();
 
 
 board.on('ready', function() {
@@ -36,12 +36,12 @@ board.on('ready', function() {
         display.update();
     }, 2000);
 
-    var led = new five.Led('P1-13');
-    var led2 = new five.Led('P1-19');
-    var led3 = new five.Led('P1-22');
-    led.blink();
-    led2.blink();
-    led3.blink();
+    var led = new five.Led('P1-11');
+    var led2 = new five.Led('P1-13');
+    var led3 = new five.Led('P1-15');
+    led.on();
+    led2.on();
+    led3.on();
 
     /*
     var multi = new five.Multi({
