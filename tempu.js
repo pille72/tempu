@@ -19,7 +19,8 @@ function read () {
         'humidity: ' + readout.humidity.toFixed(2) + '%');
     setTimeout(read, 5000);
 }
-//read();
+
+read();
 
 
 board.on('ready', function() {
