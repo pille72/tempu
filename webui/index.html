@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/tempu.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TempÜ - WebUI</title>
+</head>
+
+<body>
+
+<div class="container">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+                <img src="images/logo.png" alt="" class="logo">
+                <div class="right brand-name">
+                    TempÜ - WebUI
+                </div>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a class="dropdown-button" href="#" data-activates="dropdown1"><i class="material-icons">file_download</i></a>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="#!"><i class="material-icons">attach_file</i>CSV</a></li>
+                        <li><a href="#!"><i class="material-icons">picture_as_pdf</i>PDF</a></li>
+                        <li><a href="#!"><i class="material-icons">access_time</i>Backup</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="center">Temperaturverlauf "Haushalt"</h1>
+        <div class="spacer"></div>
+        <div class="current-data">
+            <div class="temperature">
+                <div class="left">
+                    <img src="images/thermometer.svg" style="width: 80px;" alt="">
+                </div>
+                <div class="left">
+                    <h3>Aktuelle Temperatur: <span class="temp current-temperature">18</span>°C</h3>
+                    <h3>Aktuelle Luftfeuchte: <span class="temp current-humidity">30</span>%</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="last-measurements">
+            <h3>Messungen der letzten 7 Tage</h3>
+            <table class="bordered">
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th style="text-align: right">Temperatur</th>
+                        <th style="text-align: right">Luftfeuchte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <div class="copyright">
+        <small>
+            TempÜ (2018) - Ein Projekt von Jens Reiche, Andreas Duschanek, Philip Majewski für die Wilhelm Büchner Hochschule
+        </small>
+    </div>
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/update-tempu.js"></script>
+</body>
+</html>

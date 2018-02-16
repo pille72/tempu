@@ -9,11 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "hapi": "^8.4.0",
     "johnny-five": "^0.13.0",
     "moment": "^2.20.0",
     "oled-font-5x7": "git+https://github.com/pille72/oled-font-5x7.git",
     "oled-js": "^4.0.5",
     "raspi-io": "^8.1.0",
-    "rpi-dht-sensor": "^0.1.1"
+    "rpi-dht-sensor": "^0.1.1",
+    "sqlite": "^2.9.1"
   }
 }

@@ -1,0 +1,55 @@
+body {
+    background-color: lightgray;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #00b0ff;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.brand-name {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+main {
+    background: white;
+    padding: 15px;
+}
+
+.spacer {
+    margin: 40px 0;
+}
+
+.temp {
+    background-color: transparent;
+    padding: 5px;
+}
+
+.temp.green {
+    background-color: #00C853;
+}
+
+.temp.red {
+    background-color: firebrick;
+}
