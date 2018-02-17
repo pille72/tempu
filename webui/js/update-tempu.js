@@ -37,5 +37,5 @@ $(document).ready(function(){
 
     window.setInterval(function(){
         updateTempu(currentTempEl, currentHumiEl);
-    }, 5000);
+    }, 3000);
 });
