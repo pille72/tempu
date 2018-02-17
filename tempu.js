@@ -2,7 +2,7 @@ const TempUController = require('./lib/Controller');
 const sqlite = require('sqlite');
 const moment = require('moment');
 
-const sqliteFile = __dirname + '/../data/tempu.sqlite';
+const sqliteFile = __dirname + '/data/tempu.sqlite';
 const dbPromise = sqlite.open(sqliteFile, { promise: Promise });
 
 TempUController.init(3000, 0x3c, 4, 22, 19, 23, 10, async (data) => {
