@@ -75,10 +75,12 @@ function drawChart(days) {
 
 function updateTempu(tempEl, humEl, lastMeasurementEl) {
     $.get(tempuUrl, function(response){
-        tempEl.html(response.temperature);
-        humEl.html(response.humidity);
-        lastMeasurementEl.html(response.time);
-        $('#led-indicator').attr('src', 'images/' + response.ledColor + '_led.svg');
+        if(response.data !== false) {
+            tempEl.html(response.temperature);
+            humEl.html(response.humidity);
+            lastMeasurementEl.html(response.time);
+            $('#led-indicator').attr('src', 'images/' + response.ledColor + '_led.svg');
+        }
     });
 }
 
