@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="418.48px" height="308.98px" viewBox="0 0 418.48 308.98" style="enable-background:new 0 0 418.48 308.98;"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#EDEDED;}
+	.st1{opacity:0.7;fill:#EDC606;}
+	.st2{fill:none;stroke:#FFDE00;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:#FFDE00;}
+	.st4{opacity:0.7;fill:#C6C6C6;}
+	.st5{fill:#9D9D9C;}
+	.anim-path{fill:none;stroke:#FFDE00;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+	.anim-path {
+		stroke-dasharray: 20;
+		stroke-dashoffset: 20;
+		animation: dash 1s infinite;
+	 }
+
+	 @-webkit-keyframes dash{
+		 to {
+			stroke-dashoffset: 0;
+		 }
+	 }
+]]>
+</style>
+<g id="Weiß">
+	<g>
+		<path class="st0" d="M127.072,166.614V80.685c-1.635-19.412-19.822-34.713-42.033-34.713c-22.212,0-40.4,15.301-42.035,34.713
+			v85.929H31.872v17.357h105.333v-17.357H127.072z"/>
+		<rect x="60.54" y="183.972" class="st5" width="10" height="81.334"/>
+		<rect x="100.039" y="183.972" class="st5" width="10" height="102.334"/>
+		<polygon class="st4" points="74.207,136.972 62.874,124.972 62.874,166.64 74.207,166.64 		"/>
+		<polygon class="st4" points="103.207,137.306 77.707,137.306 66.373,124.972 103.207,124.972 		"/>
+		<rect x="100.039" y="137.306" class="st4" width="3.168" height="29.334"/>
+	</g>
+	<g>
+		<path class="st0" d="M255.731,167.551V81.622c-1.635-19.412-19.822-34.713-42.033-34.713c-22.212,0-40.4,15.301-42.035,34.713
+			v85.929h-11.133v17.357h105.333v-17.357H255.731z"/>
+		<rect x="189.199" y="184.908" class="st5" width="10" height="81.334"/>
+		<rect x="228.698" y="184.908" class="st5" width="10" height="102.334"/>
+		<polygon class="st4" points="202.866,137.909 191.533,125.909 191.533,167.576 202.866,167.576 		"/>
+		<polygon class="st4" points="231.866,138.242 206.366,138.242 195.032,125.909 231.866,125.909 		"/>
+		<rect x="228.698" y="138.242" class="st4" width="3.168" height="29.334"/>
+	</g>
+</g>
+<g id="Gelb">
+	<g>
+		<path class="st3" d="M385.773,167.658v-85.93c-1.635-19.412-19.822-34.713-42.035-34.713c-22.211,0-40.398,15.301-42.033,34.713
+			v85.93h-11.133v17.355h105.334v-17.355H385.773z"/>
+		<rect x="319.24" y="185.014" class="st5" width="10" height="81.334"/>
+		<rect x="358.74" y="185.014" class="st5" width="10" height="102.334"/>
+		<polygon class="st1" points="332.906,138.015 321.574,126.015 321.574,167.682 332.906,167.682 		"/>
+		<polygon class="st1" points="361.906,138.349 336.406,138.349 325.072,126.015 361.906,126.015 		"/>
+		<rect x="358.74" y="138.349" class="st1" width="3.166" height="29.333"/>
+	</g>
+</g>
+<g id="Strahlen">
+	<path class="anim-path" d="M378.273,47.963l14.964-11.772 M358.024,38.831l4.463-18.509 M334.172,38.639l-5.832-18.125 M299.103,68.154
+		l-16.694-9.156 M390.991,66.295l17.528-7.438 M310.935,48.819l-12.356-14.485"/>
+</g>
+</svg>

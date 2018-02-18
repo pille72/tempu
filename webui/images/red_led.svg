@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="418.479px" height="308.985px" viewBox="0 0 418.479 308.985" style="enable-background:new 0 0 418.479 308.985;"
+	 xml:space="preserve">
+	 <defs>
+
+		 <style type="text/css">
+
+			.st0{fill:#E30613;}
+			.st1{fill:#EDEDED;}
+			.st2{opacity:0.7;fill:#C6C6C6;}
+			.st3{fill:#9D9D9C;}
+			.st4{opacity:0.7;fill:#CE141F;}
+			.anim-path{fill:none;stroke:#FF0000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+
+			.anim-path {
+				stroke-dasharray: 20;
+				stroke-dashoffset: 20;
+				animation: dash 1s infinite;
+			 }
+
+			 @-webkit-keyframes dash{
+				 to {
+				 	stroke-dashoffset: 0;
+				 }
+			 }
+		 </style>
+	 </defs>
+
+<g id="weiße_Laempchen">
+	<g>
+		<g>
+			<path class="st1" d="M395.073,169.21v-85.93c-1.635-19.412-19.822-34.713-42.034-34.713s-40.399,15.301-42.034,34.713v85.93
+				h-11.133v17.356h105.334V169.21H395.073z"/>
+			<rect x="328.54" y="186.567" class="st3" width="10" height="81.334"/>
+			<rect x="368.04" y="186.567" class="st3" width="10" height="102.334"/>
+			<polygon class="st2" points="342.207,139.568 330.874,127.568 330.874,169.234 342.207,169.234 			"/>
+			<polygon class="st2" points="371.207,139.901 345.707,139.901 334.373,127.568 371.207,127.568 			"/>
+			<rect x="368.04" y="139.901" class="st2" width="3.167" height="29.333"/>
+		</g>
+		<g>
+			<path class="st1" d="M265.073,169.21v-85.93c-1.635-19.412-19.822-34.713-42.034-34.713s-40.399,15.301-42.034,34.713v85.93
+				h-11.133v17.356h105.334V169.21H265.073z"/>
+			<rect x="198.54" y="186.567" class="st3" width="10" height="81.334"/>
+			<rect x="238.04" y="186.567" class="st3" width="10" height="102.334"/>
+			<polygon class="st2" points="212.207,139.568 200.874,127.568 200.874,169.234 212.207,169.234 			"/>
+			<polygon class="st2" points="241.207,139.901 215.707,139.901 204.373,127.568 241.207,127.568 			"/>
+			<rect x="238.04" y="139.901" class="st2" width="3.167" height="29.333"/>
+		</g>
+	</g>
+</g>
+<g id="Rotes_Laempchen">
+	<g>
+		<path class="st0" d="M136.432,168.71v-85.93c-1.635-19.412-19.822-34.713-42.034-34.713S53.999,63.369,52.364,82.781v85.93H41.231
+			v17.356h105.334V168.71H136.432z"/>
+		<rect x="69.899" y="186.067" class="st3" width="10" height="81.334"/>
+		<rect x="109.399" y="186.067" class="st3" width="10" height="102.334"/>
+		<polygon class="st4" points="83.566,139.068 72.233,127.068 72.233,168.734 83.566,168.734 		"/>
+		<polygon class="st4" points="112.566,139.401 87.066,139.401 75.732,127.068 112.566,127.068 		"/>
+		<rect x="109.399" y="139.401" class="st4" width="3.167" height="29.333"/>
+	</g>
+</g>
+<g id="Lichtstrahlen">
+	<path class="anim-path" d="M128.167,51.537l14.964-11.772 M107.918,42.405l4.462-18.509 M84.066,42.213l-5.833-18.125 M48.996,71.729
+		l-16.694-9.156 M140.885,69.869l17.528-7.437 M60.828,52.394L48.471,37.908"/>
+</g>
+</svg>

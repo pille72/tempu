@@ -53,3 +53,7 @@ main {
 .temp.red {
     background-color: firebrick;
 }
+
+.mt-15 {
+    margin-top: 15px;
+}
