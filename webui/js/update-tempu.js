@@ -75,7 +75,7 @@ function drawChart(days) {
 
 function updateTempu(tempEl, humEl, lastMeasurementEl) {
     $.get(tempuUrl, function(response){
-        if(response.data !== false) {
+        if(response.data) {
             tempEl.html(response.temperature);
             humEl.html(response.humidity);
             lastMeasurementEl.html(response.time);
