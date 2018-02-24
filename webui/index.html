@@ -101,6 +101,37 @@
                 </tbody>
             </table>
         </div>
+        <div class="spacer"></div>
+        <div class="settings">
+            <h3>Einstellungen</h3>
+            <div style="max-width: 500px;">
+                <form action="/update-settings" id="update-settings" method="POST">
+                    <div>
+                        <label for="maxTemp">Maximale Temperatur (in °C)</label>
+                        <input type="text" name="maxTemp" id="maxTemp" value="23">
+                    </div>
+                    <div>
+                        <label for="minTemp">Minimale Temperatur (in °C)</label>
+                        <input type="text" name="minTemp" id="minTemp" value="19">
+                    </div>
+                    <div>
+                        <label for="maxHum">Maximale Luftfeuchtigkeit (in %)</label>
+                        <input type="text" name="maxHum" id="maxHum" value="30">
+                    </div>
+                    <div>
+                        <label for="minHum">Minimale Luftfeuchtigkeit (in %)</label>
+                        <input type="text" name="minHum" id="minHum" value="20">
+                    </div>
+                    <div>
+                        <label for="delta">Abweichung (in %)</label>
+                        <input type="text" name="delta" id="delta" value="10">
+                    </div>
+                    <div>
+                        <input type="submit" value="Speichern">
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <div class="copyright">
         <small>
