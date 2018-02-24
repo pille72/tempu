@@ -31,7 +31,7 @@ function drawChart(days) {
         data: {
             labels: labels,
             datasets: [{
-                label: 'Ø Temperature',
+                label: 'Ø Temperatur',
                 data: tempDays,
                 backgroundColor: colors,
                 borderColor: colors,
@@ -69,6 +69,47 @@ function drawChart(days) {
                     }
                 }]
             }
+        }
+    });
+}
+
+function drawLineChart(data) {
+    var lineChartCtx = document.getElementById("line-chart").getContext('2d');
+
+    var labels = data.map(function(element) {
+        return element.time;
+    });
+
+    var temps = data.map(function(element) {
+        return element.temperature;
+    });
+
+    var hums = data.map(function(element) {
+        return element.humidity;
+    });
+
+    console.log(temps, hums);
+
+    var tempChart = new Chart(lineChartCtx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Temperatur',
+                    data: temps,
+                    backgroundColor: '#39CCCC',
+                    borderColor: '#39CCCC',
+                    fill: false
+                },
+                {
+                    label: 'Luftfeuchtigkeit',
+                    data: hums,
+                    backgroundColor: '#0074D9',
+                    borderColor: '#0074D9',
+                    fill: false
+                }
+            ]
         }
     });
 }
@@ -113,12 +154,26 @@ function getLast7Days() {
     });
 }
 
+function getLastDay() {
+    var url = '/last-day';
+    $.get(url, function(response){
+        var tableHtml = '';
+
+        var data = response.data.filter(function(elem) {
+            return (elem.date !== null);
+        });
+
+        drawLineChart(data);
+    });
+}
+
 $(document).ready(function(){
     var currentTempEl = $('.current-temperature'),
     currentHumiEl = $('.current-humidity'),
     lastMeasurementEl = $('.last-measurement');
 
     updateTempu(currentTempEl, currentHumiEl, lastMeasurementEl);
+    getLastDay();
     getLast7Days();
 
 
