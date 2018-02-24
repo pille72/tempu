@@ -5,7 +5,7 @@ const moment = require('moment');
 const sqliteFile = __dirname + '/data/tempu.sqlite';
 const dbPromise = sqlite.open(sqliteFile, { promise: Promise });
 
-TempUController.init(3000, 0x3c, 4, 22, 19, 23, 20, 30, 10, async (data) => {
+TempUController.init(3000, 0x3c, 4, 22, '28-ef752e126461', 19, 23, 20, 30, 10, async (data) => {
     console.log('TempU - Data: ', data);
 
     const db = await dbPromise;
