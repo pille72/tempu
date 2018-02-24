@@ -80,6 +80,13 @@ function updateTempu(tempEl, humEl, lastMeasurementEl) {
             humEl.html(response.humidity);
             lastMeasurementEl.html(response.time);
             $('#led-indicator').attr('src', 'images/' + response.ledColor + '_led.svg');
+            if(response.sondeTemperature) {
+                $('.sonde-temperature span').html(response.sondeTemperature);
+                $('.sonde').show();
+            }
+            else {
+                $('.sonde').hide();
+            }
         }
     });
 }
