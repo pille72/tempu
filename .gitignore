@@ -1,1 +1,4 @@
 node_modules
+
+webui/download/*
+!webui/download/.gitkeep
