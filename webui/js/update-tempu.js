@@ -167,12 +167,22 @@ function getLastDay() {
     });
 }
 
+function getSettings() {
+    var url = '/settings';
+    $.get(url, function(response){
+        $('#maxTemp').val(response.goodTempMax);
+        $('#minTemp').val(response.goodTempMin);
+        $('#delta').val(response.mediumDelta);
+    });
+}
+
 $(document).ready(function(){
     var currentTempEl = $('.current-temperature'),
     currentHumiEl = $('.current-humidity'),
     lastMeasurementEl = $('.last-measurement');
 
     updateTempu(currentTempEl, currentHumiEl, lastMeasurementEl);
+    getSettings();
     getLastDay();
     getLast7Days();
 
